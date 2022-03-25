@@ -1,0 +1,17 @@
+{
+  "name": "profile-dev",
+  "version": "1.0.0",
+  "description": "site pessoal para mostrar meus trabalhos como dev",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./assets/css/base.css -o ./assets/css/main.css --watch",
+    "minify": "npx tailwindcss -o ./assets/css/main.min.css --minify"
+  },
+  "keywords": [
+    "portifolio"
+  ],
+  "author": "wesley reis",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
